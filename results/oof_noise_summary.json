@@ -1,0 +1,15 @@
+{
+  "total_analyzed": 9342,
+  "oof_accuracy": 98.51,
+  "total_disagreements": 139,
+  "disagreement_rate_pct": 1.49,
+  "high_confidence_noise_count": 18,
+  "high_confidence_noise_pct": 0.19,
+  "noise_by_source": {
+    "nazario_modern": 7,
+    "nigerian_fraud": 6,
+    "ceas_08": 3,
+    "reference_safe": 1,
+    "nazario_phishing": 1
+  }
+}

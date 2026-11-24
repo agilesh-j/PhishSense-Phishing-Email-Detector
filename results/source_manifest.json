@@ -1,0 +1,195 @@
+{
+  "project": "PhishSense: Phishing Email Detector",
+  "institution": "Arunachala HiTech Engineering College | Applied AI",
+  "team": "Team 02",
+  "members": [
+    {
+      "name": "Agilesh J",
+      "reg_no": "963624243004",
+      "role": "Data Lead (Discovery, Ingestion, Cleaning, Deduplication, Provenance)"
+    },
+    {
+      "name": "Ajwin M",
+      "reg_no": "963624243006",
+      "role": "Model Lead (PyTorch Transformer, Training Loop, Checkpointing)"
+    },
+    {
+      "name": "Seekanth N L",
+      "reg_no": "963624243049",
+      "role": "Evaluation Lead (Quality Audits, Slices, Error Analysis, Final Report)"
+    }
+  ],
+  "date_generated": "2026-10-24",
+  "sources": {
+    "phishing_email_reference": {
+      "canonical_name": "Phishing Email Dataset (Kaggle: subhajournal/phishingemails)",
+      "source_url": "https://www.kaggle.com/datasets/subhajournal/phishingemails",
+      "publisher": "Subhajit Mandal (subhajournal)",
+      "license": "Open Database / Kaggle Public",
+      "download_date": "2026-10-23",
+      "archive_file": "archive.zip",
+      "archive_size_bytes": 18918073,
+      "archive_sha256": "5d4d5cd13963aa8272ee771a64cae31aad9a4028534a9fc598f00fbf52b821be",
+      "archive_md5": "7df1b42031a7f20fd3c28645ed7afd4e",
+      "extracted_file": "Phishing_Email.csv",
+      "extracted_size_bytes": 52034604,
+      "extracted_sha256": "18ef4fff1acb8986f0ab01e83ede6025420c829656af5a377560fce17e153b97",
+      "extracted_md5": "8e5c53e1dc4d28d6a6163148c7959d5b",
+      "integrity_status": "untouched",
+      "row_count": 18650,
+      "bad_lines_dropped": 0,
+      "columns": [
+        "Unnamed: 0",
+        "Email Text",
+        "Email Type"
+      ],
+      "dtypes": {
+        "Unnamed: 0": "int64",
+        "Email Text": "object",
+        "Email Type": "object"
+      },
+      "raw_label_counts": {
+        "Safe Email": 11322,
+        "Phishing Email": 7328
+      },
+      "label_mapping": {
+        "Safe Email": "safe",
+        "Phishing Email": "phishing (with commercial spam filtered)"
+      }
+    },
+    "spamassassin_hard_ham": {
+      "canonical_name": "Apache SpamAssassin Public Corpus (hard_ham)",
+      "source_url": "https://spamassassin.apache.org/old/publiccorpus/20030228_hard_ham.tar.bz2",
+      "publisher": "Apache SpamAssassin Project",
+      "license": "Apache License 2.0 / Public Domain",
+      "download_date": "2026-10-23",
+      "archive_file": "20030228_hard_ham.tar.bz2",
+      "archive_size_bytes": 1029898,
+      "archive_sha256": "ce2ce67880643dbde65ea7f85bffbfe4417349c4bd80b6b0de56262ae6b0a9c9",
+      "archive_md5": "db3e0bb34068b19b38ed768cb324a7b1",
+      "extracted_files_count": 250,
+      "integrity_status": "untouched",
+      "format": "RFC 822 plain text email files",
+      "raw_label_counts": {
+        "hard_ham": 250
+      },
+      "label_mapping": {
+        "hard_ham": "safe (hard negative)"
+      }
+    },
+    "nazario_phishing": {
+      "canonical_name": "Jose Nazario Phishing Corpus (Zenodo DOI: 10.5281/zenodo.8339691)",
+      "source_url": "https://zenodo.org/api/records/8339691/files/Nazario.csv/content",
+      "publisher": "Jose Nazario / Zenodo curated by Champa et al.",
+      "license": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
+      "download_date": "2026-10-24",
+      "file_name": "Nazario.csv",
+      "size_bytes": 7811841,
+      "sha256": "b8fbc4158fbdfaff1ed98584c43d72e283c6352d7ade4d457d34c1d79488d184",
+      "md5": "4022d055bb7cf8602f30f768f652e91e",
+      "zenodo_expected_md5": "4022d055bb7cf8602f30f768f652e91e",
+      "checksum_match": true,
+      "integrity_status": "untouched",
+      "row_count": 1565,
+      "bad_lines_dropped": 0,
+      "columns": [
+        "sender",
+        "receiver",
+        "date",
+        "subject",
+        "body",
+        "urls",
+        "label"
+      ],
+      "dtypes": {
+        "sender": "object",
+        "receiver": "object",
+        "date": "object",
+        "subject": "object",
+        "body": "object",
+        "urls": "int64",
+        "label": "int64"
+      },
+      "raw_label_counts": {
+        "1": 1565
+      },
+      "label_mapping": {
+        "1": "phishing"
+      }
+    },
+    "nigerian_fraud": {
+      "canonical_name": "CLAIR Collection of Fraud Email (Univ. of Michigan / Zenodo)",
+      "source_url": "https://zenodo.org/api/records/8339691/files/Nigerian_Fraud.csv/content",
+      "publisher": "CLAIR / Zenodo curated by Champa et al.",
+      "license": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
+      "download_date": "2026-10-24",
+      "file_name": "Nigerian_Fraud.csv",
+      "size_bytes": 9192393,
+      "sha256": "f5d6930763cae6feeae6484131c79655a7440abbb97d6f51eab757aea4e6ab4b",
+      "md5": "65fd47ae7cb4ae762e4be42b11905d63",
+      "zenodo_expected_md5": "65fd47ae7cb4ae762e4be42b11905d63",
+      "checksum_match": true,
+      "integrity_status": "untouched",
+      "row_count": 3332,
+      "bad_lines_dropped": 0,
+      "columns": [
+        "sender",
+        "receiver",
+        "date",
+        "subject",
+        "body",
+        "urls",
+        "label"
+      ],
+      "dtypes": {
+        "sender": "object",
+        "receiver": "object",
+        "date": "object",
+        "subject": "object",
+        "body": "object",
+        "urls": "int64",
+        "label": "int64"
+      },
+      "raw_label_counts": {
+        "1": 3332
+      },
+      "label_mapping": {
+        "1": "phishing"
+      }
+    },
+    "enron_clean": {
+      "canonical_name": "Enron Clean Corporate Workplace Email Dataset",
+      "source_url": "https://zenodo.org/api/records/8339691/files/Enron.csv/content",
+      "publisher": "Enron / FERC public record via Zenodo",
+      "license": "Public Domain",
+      "download_date": "2026-10-24",
+      "file_name": "Enron.csv",
+      "size_bytes": 44837129,
+      "sha256": "11f28a5bdd3603f1829681ab6b55071b5f9af781b4e6694e39216b2996a96883",
+      "md5": "10489e0fdcc8af6fe62135c689367d40",
+      "zenodo_expected_md5": "10489e0fdcc8af6fe62135c689367d40",
+      "checksum_match": true,
+      "integrity_status": "untouched",
+      "row_count": 29767,
+      "bad_lines_dropped": 0,
+      "columns": [
+        "subject",
+        "body",
+        "label"
+      ],
+      "dtypes": {
+        "subject": "object",
+        "body": "object",
+        "label": "int64"
+      },
+      "raw_label_counts": {
+        "0": 15791,
+        "1": 13976
+      },
+      "label_mapping": {
+        "0": "safe",
+        "1": "excluded (spam from benchmark)"
+      }
+    }
+  }
+}

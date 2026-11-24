@@ -1,0 +1,251 @@
+{
+  "cleaning_stats": {
+    "phishing_email_reference": {
+      "raw_total": 18650,
+      "raw_safe": 11322,
+      "raw_phishing": 7328,
+      "raw_excluded": 0,
+      "empty_text": 569,
+      "too_short": 699,
+      "commercial_spam_excluded": 672,
+      "borderline_quarantined": 84,
+      "non_english_or_corrupt": 31,
+      "clean_valid": 16595,
+      "valid_safe": 10614,
+      "valid_phishing": 5981
+    },
+    "spamassassin_hard_ham": {
+      "raw_total": 250,
+      "raw_safe": 250,
+      "raw_phishing": 0,
+      "raw_excluded": 0,
+      "empty_text": 0,
+      "too_short": 0,
+      "commercial_spam_excluded": 1,
+      "borderline_quarantined": 1,
+      "non_english_or_corrupt": 2,
+      "clean_valid": 246,
+      "valid_safe": 246,
+      "valid_phishing": 0
+    },
+    "nazario_phishing": {
+      "raw_total": 1565,
+      "raw_safe": 0,
+      "raw_phishing": 1565,
+      "raw_excluded": 0,
+      "empty_text": 0,
+      "too_short": 35,
+      "commercial_spam_excluded": 0,
+      "borderline_quarantined": 0,
+      "non_english_or_corrupt": 13,
+      "clean_valid": 1517,
+      "valid_safe": 0,
+      "valid_phishing": 1517
+    },
+    "nigerian_fraud": {
+      "raw_total": 3332,
+      "raw_safe": 0,
+      "raw_phishing": 3332,
+      "raw_excluded": 0,
+      "empty_text": 8,
+      "too_short": 33,
+      "commercial_spam_excluded": 0,
+      "borderline_quarantined": 0,
+      "non_english_or_corrupt": 1,
+      "clean_valid": 3290,
+      "valid_safe": 0,
+      "valid_phishing": 3290
+    },
+    "enron_clean": {
+      "raw_total": 29767,
+      "raw_safe": 15791,
+      "raw_phishing": 0,
+      "raw_excluded": 13976,
+      "empty_text": 0,
+      "too_short": 270,
+      "commercial_spam_excluded": 14,
+      "borderline_quarantined": 4,
+      "non_english_or_corrupt": 0,
+      "clean_valid": 15503,
+      "valid_safe": 15503,
+      "valid_phishing": 0
+    }
+  },
+  "borderline_count": 89,
+  "conflict_hashes_count": 0,
+  "post_clean_total": 37151,
+  "post_exact_dedupe_total": 31122,
+  "post_lsh_total": 29277,
+  "final_safe_pool": 19896,
+  "final_phish_pool": 9381,
+  "pool_by_source": {
+    "enron_clean_safe": 9574,
+    "nazario_phishing_phishing": 1420,
+    "nigerian_fraud_phishing": 2802,
+    "phishing_email_reference_phishing": 5159,
+    "phishing_email_reference_safe": 10109,
+    "spamassassin_hard_ham_safe": 213
+  },
+  "samples_per_source": {
+    "phishing_email_reference": [
+      {
+        "raw_id": "4153",
+        "label": "safe",
+        "word_count": 38,
+        "snippet": "re: sorry i forgot the attachment. aimee lannou 02 / 05 / 2001 02: 22 pm to: julie meyers / hou / ect @ ect cc: subject: do you have the feb. buyback and swing deal spreadsheet? aimee"
+      },
+      {
+        "raw_id": "940",
+        "label": "safe",
+        "word_count": 173,
+        "snippet": "corpuys ling journal. the first issue of the international journal of corpus linguistics ( ijcl ), under the editorship of wolfgang teubert and published by john benjamins publishing company, will be published in may / j"
+      },
+      {
+        "raw_id": "10161",
+        "label": "safe",
+        "word_count": 70,
+        "snippet": "> the number 1 ISP in France and the third ISP in > Europe Wanadoo.fr is using non RFC2822 compliant > mail servers:Wanadoo.fr is notorious for being unresponsive to spam abuse complaints. Some of the more militant admin"
+      },
+      {
+        "raw_id": "9033",
+        "label": "phishing",
+        "word_count": 193,
+        "snippet": "need creative power? logodentity is here to help. thinking of breathing new life into your business? start from revamping its front - endlogo and visualidentity. we offer creative custom design of iogos, stationery and w"
+      },
+      {
+        "raw_id": "8234",
+        "label": "safe",
+        "word_count": 282,
+        "snippet": "on - line library catalogs i do n't mean to discourage linguist readers from posting bibliographical queries on the list. on the contrary, i would like to remind / inform them that available, open-access on-line library "
+      }
+    ],
+    "spamassassin_hard_ham": [
+      {
+        "raw_id": "00037.55830ddeb2e48be48787c1fb1656ee47",
+        "label": "safe",
+        "word_count": 225,
+        "snippet": "Your Daily Dilbert 07/11/2002 E-mail error You're subscribed to the HTML version of the Daily Dilbert, which shows the comic strip as a graphic, but your mail system either can't support HTML or is set up to remove HTML "
+      },
+      {
+        "raw_id": "00193.0ec2d3762629686bdebde22f730a15e9",
+        "label": "safe",
+        "word_count": 813,
+        "snippet": "[Lockergnome Tech Specialist] Transportation Rage <phone> Lockergnome Tech Specialist <url> <url> 08.19.2002 GnomeREPORT 180 MUST-KNOW TECH TERMS Anyone who's ever been asked to explain a tech term only to be left stumbl"
+      },
+      {
+        "raw_id": "00027.87ab6708d16f330c0cb84c42a2adf154",
+        "label": "safe",
+        "word_count": 789,
+        "snippet": "NEWS.COM INVESTOR: Tech stocks drop again on Qwest criminal probe news CNET Investor Dispatch top Quote Lookup Enter symbol: \u00b7 Symbol Lookup <url> Quotes delayed 20+ minutes \u2022 My Portfolio <url> \u2022 Broker Reports <url> \u2022 "
+      },
+      {
+        "raw_id": "00178.c5cd59a6164b565d92a6861f6491cac4",
+        "label": "safe",
+        "word_count": 242,
+        "snippet": "GAMESPOT PC: Lionheart designer diary, No One Lives Forever 2 screenshot update, and more! Reflexive Entertainment's Ion Hardie gives us a behind-the-scenes look at the development of this high-fantasy RPG. <url> Knights"
+      },
+      {
+        "raw_id": "00194.c7439a37e68aa99a7fb9242d46f02666",
+        "label": "safe",
+        "word_count": 783,
+        "snippet": "The Freedom Rides Forgotten History - Tuesday, August 20, 2002 \"Little known facts and overlooked history\" ============================================================ Want to become a Forgotten History subscriber for FR"
+      }
+    ],
+    "nazario_phishing": [
+      {
+        "raw_id": "1147",
+        "label": "phishing",
+        "word_count": 87,
+        "snippet": "Project Document Update Subcontractors/Suppliers Project Document Update Subcontractors/Suppliers, Do find corresponding documents with request to the proposal of our new project and a cover letter attached to this email"
+      },
+      {
+        "raw_id": "187",
+        "label": "phishing",
+        "word_count": 251,
+        "snippet": "We detected Unusual activity on your account To ensure delivery to your inbox, please add <email> to your address book. Subscribed Alert View Accounts | Privacy Promise | Contact Us USAA SECURITY ZONE Security and Privac"
+      },
+      {
+        "raw_id": "1250",
+        "label": "phishing",
+        "word_count": 36,
+        "snippet": "EMAIL DE-ACTIVATION UPGRADE ACCOUNT Dear <email>, We are closing all old Version of Your E-mail <email>. Tap below and sign-in to get a more organized mailbox to avoid being De-activated. UPGRADE NOW Thank YouCinar monke"
+      },
+      {
+        "raw_id": "887",
+        "label": "phishing",
+        "word_count": 66,
+        "snippet": "Documents from Barbara Hopkins FYI, I have used One Drive to share some docs files with you, Kindly click REVIEW to access the shared REVIEW FILE Please email me if you have any questions. Regards FYI, I have used One Dr"
+      },
+      {
+        "raw_id": "68",
+        "label": "phishing",
+        "word_count": 636,
+        "snippet": "Important Security Alert! Hello, We just wanted to let you know that your account could not be verified by our data processor. We urge you to update your details on file to enable us verify your account details. Kindly f"
+      }
+    ],
+    "nigerian_fraud": [
+      {
+        "raw_id": "124",
+        "label": "phishing",
+        "word_count": 886,
+        "snippet": "Urgent Business Assistance. No 13 VS2 Cethswayo Estate Generation-South Africa. Satelite phone no. <phone>..................... {URGENT AND CONFIDENTIAL} (RE: TRANSFER OF ($ 126,000.000.00 USD} {ONE HUNDRED AND TWENTY SI"
+      },
+      {
+        "raw_id": "389",
+        "label": "phishing",
+        "word_count": 792,
+        "snippet": "REPLY SOON VERY URGENT AND STRICTLY CONFIDENTIAL BUSINESS PROPOSAL. PLEASE I WANT YOU TO RELPY ME THIS MAIL TO MY ALTERNATIVE EMAIL ADDRESSES <email> and <email> Dear Sir, I am MR. MOHAMMED ABACHA the son of the late Gen"
+      },
+      {
+        "raw_id": "903",
+        "label": "phishing",
+        "word_count": 550,
+        "snippet": "CAN YOU BE SINCERE? HANG SENG BANK LTD. DES VOEUX RD. BRANCH, CENTRAL HONG KONG, HONG KONG. Dear Sir, Let me start by introducing myself. I am Mr. Wang Qin credit officer of the Hang Seng Bank Ltd. I have a concealed bus"
+      },
+      {
+        "raw_id": "960",
+        "label": "phishing",
+        "word_count": 438,
+        "snippet": "HELP........ from the bujumbor refugge camp accra ghana, west africa....... dear,sir/madam Please permit me to introduce myself to you through this medium. I know you don't know me before and maybe surprise to read from "
+      },
+      {
+        "raw_id": "2095",
+        "label": "phishing",
+        "word_count": 436,
+        "snippet": "Apostolic Greetings. From Mrs Ramah Durlahb. Sainte Jeanne D'Arc Methodist Church Avenue 32 Cocody-Abidjan Cote D'Ivoire Weste Africa. Email: <email> Dearest in Christ I know that this mail may reach you by surprise, Ple"
+      }
+    ],
+    "enron_clean": [
+      {
+        "raw_id": "12897",
+        "label": "safe",
+        "word_count": 121,
+        "snippet": "how ya doing? louise, difficult week for all of us. i hope that you are doing alright given the circumstances. i expect to have the fully executed documents back from tbg on monday. we will be paying them approx. $ 1. 8 "
+      },
+      {
+        "raw_id": "439",
+        "label": "safe",
+        "word_count": 18,
+        "snippet": "enron nom for march 7, 2001 ( see attached file: hplno 307. xls ) - hplno 307. xls"
+      },
+      {
+        "raw_id": "12210",
+        "label": "safe",
+        "word_count": 58,
+        "snippet": "fw: mike curry has signed and returned docs..... still waiting to get a contract for llodra chris calger 503 - 464 - 3735 - - - - - original message - - - - - from: fitzpatrick, amy sent: thursday, january 24, 2002 12: 5"
+      },
+      {
+        "raw_id": "3345",
+        "label": "safe",
+        "word_count": 421,
+        "snippet": "implementation of the gas message board application please see the following instructions for the new messenging board. if you have any trouble entering into this site, please let me know. everyone should now be setup an"
+      },
+      {
+        "raw_id": "16276",
+        "label": "safe",
+        "word_count": 541,
+        "snippet": "fw: e - request 53597 - darin presto fyi - lisa scully appears to be the person who knows how to get lotus notes database access. - - - - - original message - - - - - from: enron messaging security, sent: friday, august "
+      }
+    ]
+  }
+}

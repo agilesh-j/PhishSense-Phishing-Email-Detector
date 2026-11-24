@@ -1,0 +1,202 @@
+[
+  {
+    "row_num": 1,
+    "dataset_row_index": 8107,
+    "source": "ceas_08",
+    "raw_source_file": "CEAS_08.csv",
+    "raw_source_index": "3049",
+    "raw_snippet": "Hi guys   With Semi finals starting the week of Mon the 18th of Feb, we need to ",
+    "cleaned_snippet": "Hi guys With Semi finals starting the week of Mon the 18th of Feb, we need to as",
+    "inserted_words": "NONE (Strictly cleaned/masked from raw)"
+  },
+  {
+    "row_num": 2,
+    "dataset_row_index": 364,
+    "source": "reference_safe",
+    "raw_source_file": "Phishing_Email.csv",
+    "raw_source_index": "9553",
+    "raw_snippet": "From: fork-admin@xent.com [mailto:fork-admin@xent.com] On Behalf Of Dave > Long ",
+    "cleaned_snippet": "can take 20 years\", when I believe that 1 year ought to be more than sufficient,",
+    "inserted_words": "NONE (Strictly cleaned/masked from raw)"
+  },
+  {
+    "row_num": 3,
+    "dataset_row_index": 4662,
+    "source": "ceas_08",
+    "raw_source_file": "CEAS_08.csv",
+    "raw_source_index": "21212",
+    "raw_snippet": "Since Windows 2000, it sometimes better to try and manage users via the ActiveDi",
+    "cleaned_snippet": "Since Windows <year>, it sometimes better to try and manage users via the Active",
+    "inserted_words": "NONE (Strictly cleaned/masked from raw)"
+  },
+  {
+    "row_num": 4,
+    "dataset_row_index": 6549,
+    "source": "ceas_08",
+    "raw_source_file": "CEAS_08.csv",
+    "raw_source_index": "22090",
+    "raw_snippet": "function assetPicker() {if (arguments.length) {var functionName = arguments[0];v",
+    "cleaned_snippet": "function assetPicker() {if (arguments.length) {var functionName = arguments[0];v",
+    "inserted_words": "NONE (Strictly cleaned/masked from raw)"
+  },
+  {
+    "row_num": 5,
+    "dataset_row_index": 9973,
+    "source": "reference_safe",
+    "raw_source_file": "Phishing_Email.csv",
+    "raw_source_index": "1741",
+    "raw_snippet": "begin forwarded text Subject: [dgc.chat] First public release of NeuDist Distrib",
+    "cleaned_snippet": "begin forwarded text [dgc.chat] First public release of NeuDist Distributed Tran",
+    "inserted_words": "NONE (Strictly cleaned/masked from raw)"
+  },
+  {
+    "row_num": 6,
+    "dataset_row_index": 9724,
+    "source": "spamassassin_easy_ham",
+    "raw_source_file": "00669.e1bd56f6a261852d752e086ae3f8f93d",
+    "raw_source_index": "00669.e1bd56f6a261852d752e086ae3f8f93d",
+    "raw_snippet": "From vulnwatch-return-399-jm=jmason.org@vulnwatch.org  Fri Jul 19 16:07:33 2002 ",
+    "cleaned_snippet": "Geeklog XSS and CRLF Injection PROGRAM: Geeklog VENDOR: Tony Bibbs et al. HOMEPA",
+    "inserted_words": "NONE (Strictly cleaned/masked from raw)"
+  },
+  {
+    "row_num": 7,
+    "dataset_row_index": 4437,
+    "source": "reference_safe",
+    "raw_source_file": "Phishing_Email.csv",
+    "raw_source_index": "2128",
+    "raw_snippet": "Today's Headlines from The Register -----------------------------------    To un",
+    "cleaned_snippet": "Today's Headlines from The Register ----------------------------------- To unsub",
+    "inserted_words": "NONE (Strictly cleaned/masked from raw)"
+  },
+  {
+    "row_num": 8,
+    "dataset_row_index": 7106,
+    "source": "ceas_08",
+    "raw_source_file": "CEAS_08.csv",
+    "raw_source_index": "2156",
+    "raw_snippet": "(Apologies if you receive multiple copies. Please reply to me with email address corrections",
+    "cleaned_snippet": "(Apologies if you receive multiple copies. Please reply to me with email address",
+    "inserted_words": "NONE (Strictly cleaned/masked from raw)"
+  },
+  {
+    "row_num": 9,
+    "dataset_row_index": 1902,
+    "source": "spamassassin_easy_ham",
+    "raw_source_file": "01584.c2bc0fb5826431ed3df58a0fc968c068",
+    "raw_source_index": "01584.c2bc0fb5826431ed3df58a0fc968c068",
+    "raw_snippet": "From razor-users-admin@lists.sourceforge.net  Thu Sep 12 18:44:30 2002 Return-Pa",
+    "cleaned_snippet": "Oh yeh one more thing. None of this would explain why the signatures for sample-",
+    "inserted_words": "NONE (Strictly cleaned/masked from raw)"
+  },
+  {
+    "row_num": 10,
+    "dataset_row_index": 5884,
+    "source": "ceas_08",
+    "raw_source_file": "CEAS_08.csv",
+    "raw_source_index": "19171",
+    "raw_snippet": "Doug  We have some experience in this area having recently completed a large-ish",
+    "cleaned_snippet": "Doug We have some experience in this area having recently completed a large-ish ",
+    "inserted_words": "NONE (Strictly cleaned/masked from raw)"
+  },
+  {
+    "row_num": 11,
+    "dataset_row_index": 9488,
+    "source": "ceas_08",
+    "raw_source_file": "CEAS_08.csv",
+    "raw_source_index": "19439",
+    "raw_snippet": "A vacancy has arisen for a Postdoctoral Fellow to work on the project \"Formal to",
+    "cleaned_snippet": "A vacancy has arisen for a Postdoctoral Fellow to work on the project \"Formal to",
+    "inserted_words": "NONE (Strictly cleaned/masked from raw)"
+  },
+  {
+    "row_num": 12,
+    "dataset_row_index": 6696,
+    "source": "reference_safe",
+    "raw_source_file": "Phishing_Email.csv",
+    "raw_source_index": "14235",
+    "raw_snippet": "URL: http://diveintomark.org/archives/2002/10/02.html#cast_not_the_first_stone D",
+    "cleaned_snippet": "URL: <url> statement made by Back Street Boy, Kevin Richardson, he testified tha",
+    "inserted_words": "NONE (Strictly cleaned/masked from raw)"
+  },
+  {
+    "row_num": 13,
+    "dataset_row_index": 9420,
+    "source": "ceas_08",
+    "raw_source_file": "CEAS_08.csv",
+    "raw_source_index": "16190",
+    "raw_snippet": "Has anyone been able to successfully post via oauth?  I have verify.xml working,",
+    "cleaned_snippet": "Has anyone been able to successfully post via oauth? I have verify.xml working, ",
+    "inserted_words": "NONE (Strictly cleaned/masked from raw)"
+  },
+  {
+    "row_num": 14,
+    "dataset_row_index": 8483,
+    "source": "spamassassin_easy_ham",
+    "raw_source_file": "02489.85c20a6f9d75714d9f44398baeddd416",
+    "raw_source_index": "02489.85c20a6f9d75714d9f44398baeddd416",
+    "raw_snippet": "From sentto-2242572-60408-1039001119-jm=jmason.org@returns.groups.yahoo.com  Wed",
+    "cleaned_snippet": "Joe McNally writes: Any chance you could bring a wire-cutters with you the next ",
+    "inserted_words": "NONE (Strictly cleaned/masked from raw)"
+  },
+  {
+    "row_num": 15,
+    "dataset_row_index": 8743,
+    "source": "ceas_08",
+    "raw_source_file": "CEAS_08.csv",
+    "raw_source_index": "1608",
+    "raw_snippet": "6th International Conference on Formal Engineering Methods                     N",
+    "cleaned_snippet": "6th International Conference on Formal Engineering Methods <date>-12, <year>, Se",
+    "inserted_words": "NONE (Strictly cleaned/masked from raw)"
+  },
+  {
+    "row_num": 16,
+    "dataset_row_index": 3960,
+    "source": "ceas_08",
+    "raw_source_file": "CEAS_08.csv",
+    "raw_source_index": "17841",
+    "raw_snippet": "I'm having a problem adding a new download to my site. I've been trying to uploa",
+    "cleaned_snippet": "I'm having a problem adding a new download to my site. I've been trying to uploa",
+    "inserted_words": "NONE (Strictly cleaned/masked from raw)"
+  },
+  {
+    "row_num": 17,
+    "dataset_row_index": 8663,
+    "source": "spamassassin_easy_ham",
+    "raw_source_file": "00270.a19a99f7377bfdd22784a5335fb78d70",
+    "raw_source_index": "00270.a19a99f7377bfdd22784a5335fb78d70",
+    "raw_snippet": "From ilug-admin@linux.ie  Tue Aug  6 14:04:06 2002 Return-Path: <ilug-admin@linu",
+    "cleaned_snippet": "On Mon, <year>-08-12 at <time>, Albert White - SUN Ireland wrote: Good point, I ",
+    "inserted_words": "NONE (Strictly cleaned/masked from raw)"
+  },
+  {
+    "row_num": 18,
+    "dataset_row_index": 3945,
+    "source": "spamassassin_easy_ham",
+    "raw_source_file": "00743.7787f0f8205e4ff2226a563c39b81039",
+    "raw_source_index": "00743.7787f0f8205e4ff2226a563c39b81039",
+    "raw_snippet": "From fork-admin@xent.com  Mon Jul 29 11:29:35 2002 Return-Path: <fork-admin@xent",
+    "cleaned_snippet": "The trend isn't news, but some of the details of the ugliness are interesting. W",
+    "inserted_words": "NONE (Strictly cleaned/masked from raw)"
+  },
+  {
+    "row_num": 19,
+    "dataset_row_index": 10275,
+    "source": "ceas_08",
+    "raw_source_file": "CEAS_08.csv",
+    "raw_source_index": "1328",
+    "raw_snippet": "Please accept our apologies if you receive multiple copies of this call   ******",
+    "cleaned_snippet": "[Apologies if you get multiple copies of this call] ============================",
+    "inserted_words": "NONE (Strictly cleaned/masked from raw)"
+  },
+  {
+    "row_num": 20,
+    "dataset_row_index": 7511,
+    "source": "ceas_08",
+    "raw_source_file": "CEAS_08.csv",
+    "raw_source_index": "23681",
+    "raw_snippet": "UNIVERSITY OF CAMBRIDGE DEPARTMENT OF ENGINEERING University Lectureship in Engineering Statistics",
+    "cleaned_snippet": "UNIVERSITY OF CAMBRIDGE DEPARTMENT OF ENGINEERING University Lectureship in Engi",
+    "inserted_words": "NONE (Strictly cleaned/masked from raw)"
+  }
+]

@@ -1,0 +1,83 @@
+{
+  "tier_8k": {
+    "target_total": 8000,
+    "target_per_class": 4000,
+    "phishing": {
+      "phishing_email_reference": {
+        "count": 1000,
+        "share_pct": 25.0,
+        "cap_limit_pct": 25.0
+      },
+      "nigerian_fraud": {
+        "count": 1600,
+        "share_pct": 40.0,
+        "cap_limit_pct": 40.0
+      },
+      "nazario_phishing": {
+        "count": 1400,
+        "share_pct": 35.0,
+        "cap_limit_pct": 40.0
+      },
+      "total": 4000
+    },
+    "safe": {
+      "phishing_email_reference": {
+        "count": 1000,
+        "share_pct": 25.0,
+        "cap_limit_pct": 25.0
+      },
+      "enron_clean": {
+        "count": 1600,
+        "share_pct": 40.0,
+        "cap_limit_pct": 40.0
+      },
+      "spamassassin_safe": {
+        "count": 1400,
+        "share_pct": 35.0,
+        "cap_limit_pct": 40.0
+      },
+      "total": 4000
+    }
+  },
+  "tier_max_baseline": {
+    "target_total": 8114,
+    "target_per_class": 4057,
+    "phishing": {
+      "phishing_email_reference": {
+        "count": 1014,
+        "share_pct": 24.99,
+        "cap_limit_pct": 25.0
+      },
+      "nigerian_fraud": {
+        "count": 1622,
+        "share_pct": 39.98,
+        "cap_limit_pct": 40.0
+      },
+      "nazario_phishing": {
+        "count": 1421,
+        "share_pct": 35.03,
+        "cap_limit_pct": 40.0
+      },
+      "total": 4057
+    },
+    "safe": {
+      "phishing_email_reference": {
+        "count": 1014,
+        "share_pct": 24.99,
+        "cap_limit_pct": 25.0
+      },
+      "enron_clean": {
+        "count": 1622,
+        "share_pct": 39.98,
+        "cap_limit_pct": 40.0
+      },
+      "spamassassin_safe": {
+        "count": 1421,
+        "share_pct": 35.03,
+        "cap_limit_pct": 40.0
+      },
+      "total": 4057
+    }
+  },
+  "max_baseline_total": 8114
+}

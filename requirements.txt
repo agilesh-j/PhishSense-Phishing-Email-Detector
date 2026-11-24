@@ -1,0 +1,22 @@
+# Core Machine Learning & Deep Learning
+torch>=2.2.0
+numpy>=1.26.0
+pandas>=2.1.0
+scikit-learn>=1.4.0
+
+# NLP, Parsing, Deduplication
+beautifulsoup4>=4.12.0
+datasketch>=1.6.0
+pyyaml>=6.0.0
+
+# Visualization & Reporting
+matplotlib>=3.8.0
+seaborn>=0.13.0
+nbformat>=5.9.0
+
+# Evaluation, Data Access & Testing
+pytest>=8.0.0
+datasets>=2.18.0
+kaggle>=1.6.0
+requests>=2.31.0
+tqdm>=4.66.0

@@ -1,0 +1,24 @@
+{
+  "vocab_size": 6629,
+  "pad_idx": 0,
+  "unk_idx": 1,
+  "max_len": 256,
+  "seq_stats_train": {
+    "mean_len": 332.806,
+    "median_len": 219.5,
+    "p90": 785.6000000000001,
+    "p95": 984.3999999999996,
+    "p99": 1295.2299999999998,
+    "max_len": 1653,
+    "min_len": 16
+  },
+  "label2id": {
+    "safe": 0,
+    "phishing": 1
+  },
+  "id2label": {
+    "0": "safe",
+    "1": "phishing"
+  },
+  "seed": 42
+}

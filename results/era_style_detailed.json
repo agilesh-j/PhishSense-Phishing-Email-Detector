@@ -1,0 +1,132 @@
+{
+  "raw_style_probe": {
+    "val_acc": 82.98,
+    "val_macro_f1": 0.8296,
+    "top_features": [
+      [
+        "char_len",
+        -4.8126
+      ],
+      [
+        "word_count",
+        4.4697
+      ],
+      [
+        "upper_ratio",
+        2.4776
+      ],
+      [
+        "punct_ratio",
+        -1.3223
+      ],
+      [
+        "avg_word_len",
+        0.8749
+      ],
+      [
+        "has_time_token",
+        -0.6794
+      ],
+      [
+        "digit_ratio",
+        -0.5882
+      ],
+      [
+        "has_date_token",
+        -0.5657
+      ],
+      [
+        "has_email_token",
+        0.4609
+      ],
+      [
+        "has_url_token",
+        -0.1189
+      ],
+      [
+        "has_num_token",
+        -0.0341
+      ],
+      [
+        "has_year_token",
+        -0.019
+      ],
+      [
+        "space_before_punct",
+        0.0
+      ]
+    ]
+  },
+  "model_seen_style_probe": {
+    "val_acc": 79.21,
+    "val_macro_f1": 0.7915,
+    "top_features": [
+      [
+        "char_len",
+        -4.4788
+      ],
+      [
+        "word_count",
+        4.182
+      ],
+      [
+        "avg_word_len",
+        1.3907
+      ],
+      [
+        "punct_ratio",
+        -1.3178
+      ],
+      [
+        "has_time_token",
+        -0.6425
+      ],
+      [
+        "has_date_token",
+        -0.5938
+      ],
+      [
+        "has_email_token",
+        0.4872
+      ],
+      [
+        "digit_ratio",
+        -0.4637
+      ],
+      [
+        "has_year_token",
+        0.0345
+      ],
+      [
+        "has_num_token",
+        0.0039
+      ],
+      [
+        "has_url_token",
+        0.0007
+      ],
+      [
+        "upper_ratio",
+        0.0
+      ],
+      [
+        "space_before_punct",
+        0.0
+      ]
+    ]
+  },
+  "per_era_phishing_recall": {
+    "validation": {
+      "old_era_recall": 98.79,
+      "modern_recall": 98.36,
+      "old_era_samples": 578,
+      "modern_samples": 244
+    },
+    "test": {
+      "old_era_recall": 98.79,
+      "modern_recall": 97.56,
+      "old_era_samples": 580,
+      "modern_samples": 246
+    }
+  }
+}

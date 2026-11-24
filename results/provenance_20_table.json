@@ -1,0 +1,182 @@
+[
+  {
+    "num": 1,
+    "row_index": 8107,
+    "source": "ceas_08",
+    "raw_file": "CEAS_08.csv",
+    "raw_index": "Unknown",
+    "raw_preview": "''",
+    "cleaned_preview": "'Hi guys With Semi finals starting the week of Mon the 18th of Feb, we need to ask teams to'"
+  },
+  {
+    "num": 2,
+    "row_index": 364,
+    "source": "reference_safe",
+    "raw_file": "Phishing_Email.csv",
+    "raw_index": "Unknown",
+    "raw_preview": "''",
+    "cleaned_preview": "'can take 20 years\", when I believe that 1 year ought to be more than sufficient, (and help'"
+  },
+  {
+    "num": 3,
+    "row_index": 4662,
+    "source": "ceas_08",
+    "raw_file": "CEAS_08.csv",
+    "raw_index": "Unknown",
+    "raw_preview": "''",
+    "cleaned_preview": "'Since Windows <year>, it sometimes better to try and manage users via the ActiveDirectory '"
+  },
+  {
+    "num": 4,
+    "row_index": 6549,
+    "source": "ceas_08",
+    "raw_file": "CEAS_08.csv",
+    "raw_index": "Unknown",
+    "raw_preview": "''",
+    "cleaned_preview": "'function assetPicker() {if (arguments.length) {var functionName = arguments[0];var assetTy'"
+  },
+  {
+    "num": 5,
+    "row_index": 9973,
+    "source": "reference_safe",
+    "raw_file": "Phishing_Email.csv",
+    "raw_index": "Unknown",
+    "raw_preview": "''",
+    "cleaned_preview": "'begin forwarded text [dgc.chat] First public release of NeuDist Distributed Transaction Cl'"
+  },
+  {
+    "num": 6,
+    "row_index": 9724,
+    "source": "spamassassin_easy_ham",
+    "raw_file": "Unknown",
+    "raw_index": "Unknown",
+    "raw_preview": "''",
+    "cleaned_preview": "'Geeklog XSS and CRLF Injection PROGRAM: Geeklog VENDOR: Tony Bibbs et al. HOMEPAGE: <url> '"
+  },
+  {
+    "num": 7,
+    "row_index": 4437,
+    "source": "reference_safe",
+    "raw_file": "Phishing_Email.csv",
+    "raw_index": "Unknown",
+    "raw_preview": "''",
+    "cleaned_preview": "\"Today's Headlines from The Register ----------------------------------- To unsubscribe fro\""
+  },
+  {
+    "num": 8,
+    "row_index": 7106,
+    "source": "ceas_08",
+    "raw_file": "CEAS_08.csv",
+    "raw_index": "Unknown",
+    "raw_preview": "''",
+    "cleaned_preview": "'(Apologies if you receive multiple copies. Please reply to me with email address correctio'"
+  },
+  {
+    "num": 9,
+    "row_index": 1902,
+    "source": "spamassassin_easy_ham",
+    "raw_file": "Unknown",
+    "raw_index": "Unknown",
+    "raw_preview": "''",
+    "cleaned_preview": "'Oh yeh one more thing. None of this would explain why the signatures for sample-spam.txt f'"
+  },
+  {
+    "num": 10,
+    "row_index": 5884,
+    "source": "ceas_08",
+    "raw_file": "CEAS_08.csv",
+    "raw_index": "Unknown",
+    "raw_preview": "''",
+    "cleaned_preview": "'Doug We have some experience in this area having recently completed a large-ish AMA oprisk'"
+  },
+  {
+    "num": 11,
+    "row_index": 9488,
+    "source": "ceas_08",
+    "raw_file": "CEAS_08.csv",
+    "raw_index": "Unknown",
+    "raw_preview": "''",
+    "cleaned_preview": "'A vacancy has arisen for a Postdoctoral Fellow to work on the project \"Formal tools for ha'"
+  },
+  {
+    "num": 12,
+    "row_index": 6696,
+    "source": "reference_safe",
+    "raw_file": "Phishing_Email.csv",
+    "raw_index": "Unknown",
+    "raw_preview": "''",
+    "cleaned_preview": "'URL: <url> statement made by Back Street Boy, Kevin Richardson, he testified that they hav'"
+  },
+  {
+    "num": 13,
+    "row_index": 9420,
+    "source": "ceas_08",
+    "raw_file": "CEAS_08.csv",
+    "raw_index": "Unknown",
+    "raw_preview": "''",
+    "cleaned_preview": "'Has anyone been able to successfully post via oauth? I have verify.xml working, but when I'"
+  },
+  {
+    "num": 14,
+    "row_index": 8483,
+    "source": "spamassassin_easy_ham",
+    "raw_file": "Unknown",
+    "raw_index": "Unknown",
+    "raw_preview": "''",
+    "cleaned_preview": "\"Joe McNally writes: Any chance you could bring a wire-cutters with you the next time you'r\""
+  },
+  {
+    "num": 15,
+    "row_index": 8743,
+    "source": "ceas_08",
+    "raw_file": "CEAS_08.csv",
+    "raw_index": "Unknown",
+    "raw_preview": "''",
+    "cleaned_preview": "'6th International Conference on Formal Engineering Methods <date>-12, <year>, Seattle, USA'"
+  },
+  {
+    "num": 16,
+    "row_index": 3960,
+    "source": "ceas_08",
+    "raw_file": "CEAS_08.csv",
+    "raw_index": "Unknown",
+    "raw_preview": "''",
+    "cleaned_preview": "\"I'm having a problem adding a new download to my site. I've been trying to upload a new do\""
+  },
+  {
+    "num": 17,
+    "row_index": 8663,
+    "source": "spamassassin_easy_ham",
+    "raw_file": "Unknown",
+    "raw_index": "Unknown",
+    "raw_preview": "''",
+    "cleaned_preview": "\"On Mon, <year>-08-12 at <time>, Albert White - SUN Ireland wrote: Good point, I didn't thi\""
+  },
+  {
+    "num": 18,
+    "row_index": 3945,
+    "source": "spamassassin_easy_ham",
+    "raw_file": "Unknown",
+    "raw_index": "Unknown",
+    "raw_preview": "''",
+    "cleaned_preview": "\"The trend isn't news, but some of the details of the ugliness are interesting. Worth FoRKi\""
+  },
+  {
+    "num": 19,
+    "row_index": 10275,
+    "source": "ceas_08",
+    "raw_file": "CEAS_08.csv",
+    "raw_index": "Unknown",
+    "raw_preview": "''",
+    "cleaned_preview": "'[Apologies if you get multiple copies of this call] ======================================'"
+  },
+  {
+    "num": 20,
+    "row_index": 7511,
+    "source": "ceas_08",
+    "raw_file": "CEAS_08.csv",
+    "raw_index": "Unknown",
+    "raw_preview": "''",
+    "cleaned_preview": "'UNIVERSITY OF CAMBRIDGE DEPARTMENT OF ENGINEERING University Lectureship in Engineering St'"
+  }
+]

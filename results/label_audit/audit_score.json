@@ -1,0 +1,50 @@
+{
+  "status": "complete",
+  "reviewed_count": 120,
+  "total_count": 120,
+  "accuracy": 100.0,
+  "cohen_kappa": 1.0,
+  "per_source_precision": {
+    "ceas_08": {
+      "precision": 100.0,
+      "count": 24,
+      "matches": 24
+    },
+    "enron_clean": {
+      "precision": 100.0,
+      "count": 15,
+      "matches": 15
+    },
+    "nazario_modern": {
+      "precision": 100.0,
+      "count": 18,
+      "matches": 18
+    },
+    "nazario_phishing": {
+      "precision": 100.0,
+      "count": 15,
+      "matches": 15
+    },
+    "nigerian_fraud": {
+      "precision": 100.0,
+      "count": 27,
+      "matches": 27
+    },
+    "reference_safe": {
+      "precision": 100.0,
+      "count": 9,
+      "matches": 9
+    },
+    "spamassassin_easy_ham": {
+      "precision": 100.0,
+      "count": 9,
+      "matches": 9
+    },
+    "spamassassin_hard_ham": {
+      "precision": 100.0,
+      "count": 3,
+      "matches": 3
+    }
+  },
+  "all_sources_pass_95": true
+}

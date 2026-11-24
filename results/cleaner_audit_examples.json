@@ -1,0 +1,226 @@
+{
+  "enron_clean": [
+    {
+      "source": "enron_clean",
+      "label": "safe",
+      "orig_idx": 12237,
+      "text": "terminal server 2 / curve manager the problem reported earlier with terminal server 2 and enpower ' s curve manager have been fixed. michael tully application support, portland ( 503 ) 464 - 7790 desk ( 503 ) 807 - 7862 michael. tully @ enron. com"
+    },
+    {
+      "source": "enron_clean",
+      "label": "safe",
+      "orig_idx": 5380,
+      "text": "interview schedule for wichai narongwanich attached please find the interview packet for the above - referenced person. the interview will happen <date>, <year>. please print both documents for your hard copies. hardcopies of the resume will be delivered via runner. if you have any questions, or con..."
+    },
+    {
+      "source": "enron_clean",
+      "label": "safe",
+      "orig_idx": 934,
+      "text": "re: april <year> spot purchases vance, deals for the following have been created and entered in sitara. the deal numbers are noted below: bob from: vance l taylor / enron @ enronxgate on 03 / 30 / <year> 09: <time> to: robert cotten / hou / ect @ ect cc: lisa hesse / hou / ect @ ect, julie meyers / ..."
+    },
+    {
+      "source": "enron_clean",
+      "label": "safe",
+      "orig_idx": 11896,
+      "text": "npl 5 short for friday we have one more short position to fill for friday, aug. 17 - stwbom has sold a day - ahead schedule to sierra pacific holding co. - 3 mw off peak and 6 mw on peak at npl 5. prices and terms are as follows: <num> - stwbom buys cal - imb npl 5 on peak - 6 mw @ $ 52 off peak - 3..."
+    },
+    {
+      "source": "enron_clean",
+      "label": "safe",
+      "orig_idx": 4248,
+      "text": "hello all update: preparations for the upcoming texas finance festival iii are about complete and i just wanted to update you on the hotel reservations information. you will need to make your reservation before <date>to be assured of getting a room in our reserved block. also, for \" counting \" purpo..."
+    }
+  ],
+  "nigerian_fraud": [
+    {
+      "source": "nigerian_fraud",
+      "label": "phishing",
+      "orig_idx": 3279,
+      "text": "Dear, Dear, Due to the on going political crisis in this country (Ivory-Coast-Cote d'Ivoire), I really want to relocate to your country to continue with my education. I was a second year student of Medicine in the university before I lost my parent and since then I have stopped schooling. I have eno..."
+    },
+    {
+      "source": "nigerian_fraud",
+      "label": "phishing",
+      "orig_idx": 2535,
+      "text": "Good day Good day My name is Denis Messou,from the Republic of Cote D Ivoire. I am the only son of late Mr and Mrs.Jean Claude Messou, a wealthy cocoa farmer before he was poisoned to death by his associates on one of their outings to discuss a business. Mother died earlier in <year> so my father to..."
+    },
+    {
+      "source": "nigerian_fraud",
+      "label": "phishing",
+      "orig_idx": 729,
+      "text": "CONFIDNTIAL BARRISTER DAVID.A NELSON Equity Chambers Lagos, Nigeria. Attention: Greetings to you. I am Mr. David.A Nelson, Principal Partner Benson & Associates (EQUITYCHAMBERS). I need your urgent and very confidential approach to this proposition. On <date>, my client a ForeignOilConsultant/Contra..."
+    },
+    {
+      "source": "nigerian_fraud",
+      "label": "phishing",
+      "orig_idx": 435,
+      "text": "PROJECT INTEREST. My dear friend, I am Mr. Yetunde Bassey, Bank Manager of Diamond Bank of Nigeria,Lagos Branch. I have urgent and very confidential business proposition for you. On <date>, a FOREIGN Oil consultant/contractor with the Nigerian National Petroleum Corporation, Mr. Roger Scott made a n..."
+    },
+    {
+      "source": "nigerian_fraud",
+      "label": "phishing",
+      "orig_idx": 1502,
+      "text": "U.S. BankX Fraud Verification Process US Bank Alert Message We recently reviewed your account, and we suspect an unauthorized ATM - based transactions on your account. Therefore, as a preventive measure we have temporary limited your access to sensitive US Bank features. To ensure that your account ..."
+    }
+  ],
+  "nazario_phishing": [
+    {
+      "source": "nazario_phishing",
+      "label": "phishing",
+      "orig_idx": 79,
+      "text": "Password Update Help Desk Password will expire in 2 days. Click Here To Validate E-mail Thank you, \u00a9 <year> Microsoft This email contains PRIVILEGED and CONFIDENTIAL INFORMATION intended only for the use of the recipient named above. The information may be protected by state and federal laws, includ..."
+    },
+    {
+      "source": "nazario_phishing",
+      "label": "phishing",
+      "orig_idx": 488,
+      "text": "Final Warning***Virus Detected in Your E-mail Account Server Message Dear <email> Our record indicates that you recently made a request to deactivate email And this request will be processed shortly. If this request was made accidentally and you have no knowledge of it, you are advised to cancel the..."
+    },
+    {
+      "source": "nazario_phishing",
+      "label": "phishing",
+      "orig_idx": 399,
+      "text": "Your Apple ID was used to sign in to iMessage on an iPhone 6. Your Apple ID was used to sign in to iCloud on an iPhone 6 named \"Zikxo''. If the information above looks familiar, you can disregard this email. If you have not recently signed in to an iPad with your Apple ID and believe someone may hav..."
+    },
+    {
+      "source": "nazario_phishing",
+      "label": "phishing",
+      "orig_idx": 1148,
+      "text": "<email> Messages could not be delivered. Some email Messages could not be delivered There are new messages in your Email Quarantine, messages will be automatically removed from quarantine after 7 day(s). The following summary displays a maximum of the most recent quarantined block messages.To see al..."
+    },
+    {
+      "source": "nazario_phishing",
+      "label": "phishing",
+      "orig_idx": 1193,
+      "text": "=?UTF-8?B?QmxvY2tlZCBJbmNvbWluZyBNZXNzYWdlc++7vw==?= Blocked Incoming Messages The following messages have been blocked by your administrator due to validation error. You have 4 new messages in your email quarantine. Date: (18 May <year>) Email I.D: <email> To see all quarantined messages view your ..."
+    }
+  ],
+  "spamassassin_hard_ham": [
+    {
+      "source": "spamassassin_hard_ham",
+      "label": "safe",
+      "file": "00125.ae44df3c54c4ab59e4b0f1f63550f582",
+      "text": "Today's Headlines from The Register ----------------------------------- To unsubscribe from this daily news update, see the instructions at the end of this message. Software JPEGs are not free: Patent holder pursues IP grab And Sony's already coughed up <url> Mac users outraged at iTools, upgrade ta..."
+    },
+    {
+      "source": "spamassassin_hard_ham",
+      "label": "safe",
+      "file": "00107.88cccf3d99a841ce92bdff029e137ed9",
+      "text": "CNET Announcement <date> Canon USA Reseller News: July July <year> / Volume 2 No. 5 The Canon USA Reseller News provides resellers with monthly announcements on Canon products that are purchased through national distributors. Scan the following topics for \"News You Can Use.\" They're Here! #here Chec..."
+    },
+    {
+      "source": "spamassassin_hard_ham",
+      "label": "safe",
+      "file": "00188.ca158386faba622ccc6513fb41f10c5f",
+      "text": "EFFector Vol. 15, No. 25 <date> <email> A Publication of the Electronic Frontier Foundation ISSN 1062-9424 In the 225th Issue of EFFector: * Judge Grants Consumer Voice in ReplayTV Lawsuit * Musician Disputes Industry's Stance on Music Sharing * Shake Your Money Maker; EFF Is Throwing a Party Next T..."
+    },
+    {
+      "source": "spamassassin_hard_ham",
+      "label": "safe",
+      "file": "00218.c8c8534c14d8e1b43c43a7565a16f28a",
+      "text": "--------------------------------------------------------------------------- Norton SystemWorks Pro <year> $29.95, 90% Off Retail!! <url> --------------------------------------------------------------------------- <date> ================================================================== Classic Novel..."
+    },
+    {
+      "source": "spamassassin_hard_ham",
+      "label": "safe",
+      "file": "00070.a6fc1e36f88c0bd0e0749274082938fc",
+      "text": "ZDNet AnchorDesk Daily Newsletter 3D\"<url> =20 3D\"<url> =20 = =20 =20 =20 = Need a memory upgrade? Find out with CNET's Memory Configurator.= 3D\"<url> =20 =20 = Clearance Center: Get discounts on PCs, PDAs, MP3 players and more! 3D\"<url> =20 =20 = Find out the top 10 Web services security requiremen..."
+    }
+  ],
+  "spamassassin_easy_ham": [
+    {
+      "source": "spamassassin_easy_ham",
+      "label": "safe",
+      "file": "00482.dcb4dd7822137630e5659b86336082c3",
+      "text": "On (<date> <time>), Kiall Mac Innes didst pronounce: Try a hammer -- great precision tool that!! -- Chat ya later, John. -- BOFH excuse #167: excessive collisions & not enough packet ambulances -- Irish Linux Users' Group: <email> <url> for (un)subscription information. List maintainer: <email>"
+    },
+    {
+      "source": "spamassassin_easy_ham",
+      "label": "safe",
+      "file": "02318.48d402a51963b3fe7e43da0bd4ec8c50",
+      "text": "URL: <url> Plastic discs designed to sit inside food packaging and change colour when the contents go off could provide warnings to consumers"
+    },
+    {
+      "source": "spamassassin_easy_ham",
+      "label": "safe",
+      "file": "00327.1983f402e45739e4ef3afa5aea4f3353",
+      "text": "Nope, can't say that I had any problems installing SuSE 8.0. Just stuck in the DVD, did the install and WHAM, got a working distro. QUite an impressive one too, by the way! Mike _________________________________________________________________ Send and receive Hotmail on your mobile device: <url> --..."
+    },
+    {
+      "source": "spamassassin_easy_ham",
+      "label": "safe",
+      "file": "00728.b5de363dc254b32b4a44fc37743d9322",
+      "text": "There has been a significant recent increase in global CO2 concentrations. The vast preponderance of the new CO2 in the atmosphere is due to human activity starting around the industrialization of Europe, and accelerating after WWII. Most scientists studying global climate change believe that these ..."
+    },
+    {
+      "source": "spamassassin_easy_ham",
+      "label": "safe",
+      "file": "01039.2b799ff9acbf233a7842eab00fcb848f",
+      "text": "On Thu, <year>-08-29 at <time>, Matthias Saou wrote: Ah! The mixer stuff was what made me look for an init script in the first place, I didn't bother to check whether the existing stuff would have worked with that. Will try that out, you can assume silence == success:) Agreed. Though with only 2 hou..."
+    }
+  ],
+  "reference_safe": [
+    {
+      "source": "reference_safe",
+      "label": "safe",
+      "orig_idx": 3258,
+      "text": "Once upon a time, Roi wrote:> mplayer works with dga (if i am root) and works with x11 you're missing the SDL_image or something?:-/Matthias-- Clean custom Red Hat Linux rpm packages: <url> Red Hat Linux release 7.3 (Valhalla) running Linux kernel 2.4.18-10acpi Load: 0.28 0.17 0.13__________________..."
+    },
+    {
+      "source": "reference_safe",
+      "label": "safe",
+      "orig_idx": 4339,
+      "text": "URL: <url> inspections, vowing to block the inspectors' return unless they are backed with threats of military force."
+    },
+    {
+      "source": "reference_safe",
+      "label": "safe",
+      "orig_idx": 7694,
+      "text": "montana power company march <year> dear real - timers, we are having the same problem with montana power ' s checkout as we had last month: the volume of disputes is overwhelming!! i have looked at the inc sheets and found that enpower matches the inc. sheets. but in fairness to mpc ' s disputes, la..."
+    },
+    {
+      "source": "reference_safe",
+      "label": "safe",
+      "orig_idx": 2760,
+      "text": "fw: pma ' s bill, the following is a message that heather sent to me after we talked about this deal and she did some additional research. a synopsis of this deal: geir entered the deal on 4 - 24 - 01. buy $ 320, sell $ 30, creating a $ 290. 00 per mw charge to your books you went back on 4 - 27 - 0..."
+    },
+    {
+      "source": "reference_safe",
+      "label": "safe",
+      "orig_idx": 7996,
+      "text": "california capacity report for week of 12 / 10 - 12 / 14 transwestern ' s average deliveries to california were 1122 mmbtu / d ( 103 % ), with san juan lateral throughput at 844 mmbtu / d. total east deliveries averaged 270 mmbtu / d. el paso ' s average deliveries to california were 2198 mmbtu / d ..."
+    }
+  ],
+  "reference_phishing": [
+    {
+      "source": "reference_phishing",
+      "label": "phishing",
+      "orig_idx": 2943,
+      "text": "On <date>, the European countries began using the new Euro. Never before have so many countries with such powerful economies united to use a single currency. Get your piece of history now! We would like to send you a FREE Euro and a FREE report on world currency. Just visit our site to request your ..."
+    },
+    {
+      "source": "reference_phishing",
+      "label": "phishing",
+      "orig_idx": 3514,
+      "text": "stocks discovered for quick profit yap international, inc. ( ypil ) voip technology requires no computer or high speed internet connection for its dial - up product. current price: $. 105 watch this stock monday some of these littie voip stocks have been rea | | y moving lately. and when some of the..."
+    },
+    {
+      "source": "reference_phishing",
+      "label": "phishing",
+      "orig_idx": 6836,
+      "text": "advertisement this message complies with the proposed united states federal requirements for commercial email. for additional information see: your e - mail address is on a list saying you would like to information on this type of service. further mailings to you may be stopped at no cost to you by ..."
+    },
+    {
+      "source": "reference_phishing",
+      "label": "phishing",
+      "orig_idx": 2317,
+      "text": "all graphics software available, cheap oem versions. good morning, we we offer latest oem packages of all graphics and publishinq software from corel, macromedia, adobe and others. $ 80 adobe photoshop 8. 0 / cs $ 140 macromedia studio mx <year> $ 120 adobe acrobat 7. 0 professional $ 150 adobe prem..."
+    },
+    {
+      "source": "reference_phishing",
+      "label": "phishing",
+      "orig_idx": 3816,
+      "text": "html body pfont face = arialbufont size = 3 nbsp; / p pthe onlfont style = font - size: lpx * / fontine super savfont style = font - size: lpx ` / fontings phafont style = font - size: lpx ' / fontrmacy / font / ubr br / b / p table height = 24 width = 900 border = 0 tr td align = left width = 900 h..."
+    }
+  ]
+}

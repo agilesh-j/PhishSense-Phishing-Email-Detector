@@ -1,0 +1,22 @@
+{
+  "total_rows": 11000,
+  "train_rows": 7696,
+  "validation_rows": 1646,
+  "test_rows": 1658,
+  "probe_rows": 400,
+  "hard_negatives_safe_count": 918,
+  "hard_negatives_safe_pct": 16.69,
+  "train_class_balance": {
+    "safe": 3848,
+    "phishing": 3848
+  },
+  "val_class_balance": {
+    "safe": 823,
+    "phishing": 823
+  },
+  "test_class_balance": {
+    "phishing": 829,
+    "safe": 829
+  },
+  "zero_leakage_asserted": true
+}

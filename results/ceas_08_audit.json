@@ -1,0 +1,25 @@
+{
+  "ceas_08_total_raw": 39154,
+  "raw_label_counts": {
+    "1": 21842,
+    "0": 17312
+  },
+  "pre_screening_pharmacy_comm_spam_pct": {
+    "class_1": 19.238165003204834,
+    "class_0": 0.8606746765249538,
+    "combined": 11.112530009705267
+  },
+  "post_screening_clean_rows": 35722,
+  "post_screening_label_counts": {
+    "1": 18537,
+    "0": 17185
+  },
+  "post_screening_pharmacy_comm_spam_pct": {
+    "class_1": 18.28774882667098,
+    "class_0": 0.4538842013383765,
+    "combined": 9.708303006550585
+  },
+  "safe_class_precision_pct": 100.0,
+  "phishing_class_precision_pct": 14.000000000000002,
+  "passes_95_pct_threshold": false
+}

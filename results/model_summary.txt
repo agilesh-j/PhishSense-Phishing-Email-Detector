@@ -1,0 +1,34 @@
+=======================================================
+PhishSense Custom PyTorch Transformer Architecture
+=======================================================
+PhishSenseTransformer(
+  (embedding): Embedding(6629, 128, padding_idx=0)
+  (pos_encoder): PositionalEncoding(
+    (dropout): Dropout(p=0.2, inplace=False)
+  )
+  (transformer_encoder): TransformerEncoder(
+    (layers): ModuleList(
+      (0-1): 2 x TransformerEncoderLayer(
+        (self_attn): MultiheadAttention(
+          (out_proj): NonDynamicallyQuantizableLinear(in_features=128, out_features=128, bias=True)
+        )
+        (linear1): Linear(in_features=128, out_features=256, bias=True)
+        (dropout): Dropout(p=0.2, inplace=False)
+        (linear2): Linear(in_features=256, out_features=128, bias=True)
+        (norm1): LayerNorm((128,), eps=1e-05, elementwise_affine=True, bias=True)
+        (norm2): LayerNorm((128,), eps=1e-05, elementwise_affine=True, bias=True)
+        (dropout1): Dropout(p=0.2, inplace=False)
+        (dropout2): Dropout(p=0.2, inplace=False)
+      )
+    )
+  )
+  (layer_norm): LayerNorm((128,), eps=1e-05, elementwise_affine=True, bias=True)
+  (dropout): Dropout(p=0.2, inplace=False)
+  (classifier): Linear(in_features=128, out_features=2, bias=True)
+)
+-------------------------------------------------------
+Total Parameters:     1,113,986
+Trainable Parameters: 1,113,986
+Embedding Dimension:  128
+Classes:              2
+=======================================================

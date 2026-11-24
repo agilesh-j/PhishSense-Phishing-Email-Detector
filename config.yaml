@@ -1,0 +1,83 @@
+# PhishSense Configuration
+# Institution: Arunachala HiTech Engineering College | Applied AI
+# Project: PhishSense: Phishing Email Detector (Team 02)
+
+system:
+  seed: 42
+  device: "auto" # 'cuda', 'cpu', or 'auto'
+  strict_brief_mode: false # If true, build 10k dataset solely from Source #1
+
+paths:
+  repo_root: "."
+  raw_dir: "dataset/raw"
+  processed_dir: "dataset/processed"
+  artifacts_dir: "artifacts"
+  results_dir: "results"
+  docs_dir: "docs"
+  train_csv: "dataset/processed/train.csv"
+  val_csv: "dataset/processed/validation.csv"
+  test_csv: "dataset/processed/test.csv"
+  ood_probe_csv: "dataset/processed/ood_probe.csv"
+  best_model: "artifacts/best_model.pt"
+  vocab_json: "artifacts/vocab.json"
+  labels_json: "artifacts/labels.json"
+  config_json: "artifacts/config.json"
+  source_manifest: "results/source_manifest.json"
+
+dataset:
+  min_total_rows: 10000
+  target_total_rows: 20000
+  max_total_rows: 30000
+  target_safe_rows: 10000
+  target_phishing_rows: 10000
+  test_min_rows: 2000
+  reference_max_class_share: 0.25 # Max 25% of any class from archive.zip
+  target_labels: ["safe", "phishing"]
+  train_ratio: 0.70
+  val_ratio: 0.15
+  test_ratio: 0.15
+  max_single_source_share: 0.40 # Max 40% from any single source per class
+  min_sources_per_class: 3 # At least 3 sources per class in enriched mode
+  hard_negatives_min_ratio: 0.20 # 20-30% of safe class
+  hard_negatives_max_ratio: 0.30
+  synthetic_cap_ratio: 0.15 # Max 15% synthetic emails per class
+  min_text_words: 15
+  max_text_chars: 5000
+
+tokenizer:
+  type: "word"
+  lowercase: true
+  min_freq: 2
+  vocab_cap: 30000
+  pad_token: "<PAD>"
+  unk_token: "<UNK>"
+  url_token: "<url>"
+  email_token: "<email>"
+  phone_token: "<phone>"
+  max_len_percentile: 95
+  max_len_cap: 256
+
+model:
+  name: "PhishSenseTransformer"
+  d_model: 128
+  nhead: 4
+  num_encoder_layers: 2
+  dim_feedforward: 256
+  dropout: 0.1
+  num_classes: 2
+  pooling: "masked_mean"
+
+training:
+  batch_size: 32
+  epochs: 10
+  learning_rate: 0.0005
+  weight_decay: 0.01
+  warmup_ratio: 0.1
+  early_stopping_patience: 3
+  max_grad_norm: 1.0
+  eval_metric: "val_macro_f1"
+
+evaluation:
+  suspicion_threshold: 0.99 # Trigger deep audit if test macro-F1 >= 0.99
+  error_analysis_min_samples: 15
+  audit_sample_size_per_class: 150

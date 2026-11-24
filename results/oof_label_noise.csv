@@ -1,0 +1,19 @@
+source,label,predicted_label,confidence,text_snippet
+nazario_modern,phishing,safe,0.960217037111203,Daily Skimm <url> Skimm'd with stories of a supportive workplace <date> Read in browser <url> Daily Skimm <url> Together with <url> <url> Sk
+nazario_phishing,phishing,safe,0.9495616078647353,Daily Skimm Skimm'd with stories of a supportive workplace <date>2022Read in browserDaily SkimmTogether withSkimm'd with stories of a suppor
+nazario_modern,phishing,safe,0.9459426224821366,"Sorry we missed you! Schedule your next delivery date. <url> <url> ame was played on <date>, between Rutgers and Princeton, two college team"
+nigerian_fraud,phishing,safe,0.9443671868136426,"As list administrator, your authorization is requested for the following mailing list posting: List: <email> Reason: Post by non-member to a"
+nigerian_fraud,phishing,safe,0.9318913142643944,This is a Brand New Compnay Never Marketed Before. We have seen these types move 4.00 in the first day of marketing. We Expect the 6th to be
+nazario_modern,phishing,safe,0.9268760148892711,Your Mcafee subscription has expired <url> <url> correlated with subfossil remains found and described in the latter part of the 19th centur
+nazario_modern,phishing,safe,0.9258140563914584,Extend your account for free <url> <url> eveloped as a single-player experience. The question of the financial viability of single-player AA
+nazario_modern,phishing,safe,0.9151586650321347,"Extend your account for free <url> <url> fitted trains, the brake van has several purposes, and hence jobs for the guard: Operating the brak"
+reference_safe,safe,phishing,0.9092357931604125,"registration welcome email thank you for registering at citibank account online. you now have free access, 24 hours a day, to your citibank "
+ceas_08,safe,phishing,0.9022477658589769,"Dear Tony Meyer, This email confirms that you sent $5.00 USD to Escape Artists, Inc. as a subscription payment. ----------------------------"
+nazario_modern,phishing,safe,0.9011355276595163,"Sorry we missed you! Schedule your next delivery date. <url> <url> een songs and calls is based upon complexity, length, and context. Songs "
+ceas_08,safe,phishing,0.8946571915890908,"Dear Tony Meyer, This email confirms that you have paid Daring Fireball$37.00 USD using PayPal. The exchange rate for this purchase is 1 NZD"
+nigerian_fraud,phishing,safe,0.8946166041429766,"No luck this weekend with light colored or brown sweats. We looked in the mall, target and kohl's and only some dark colored sweats. There a"
+ceas_08,safe,phishing,0.8908828723547728,This is an automatically generated message. Please do not respond to this email address. ---------------------------------------------------
+nigerian_fraud,phishing,safe,0.883896301444017,"Hi, VdIAGRA for LESS <url> struggle going on-apparently they are securing the bound man to the indeed! A complete corruption of history."
+nigerian_fraud,phishing,safe,0.8773507691178921,"""How to turn �3 into �10,000"" This is not a get rich quick scheme, but with a little effort will make a nice little return - perhaps pay off"
+nigerian_fraud,phishing,safe,0.8758707118931897,"""How to turn 3 into 10,000"" This is not a get rich quick scheme, but with a little effort will make a nice little return - perhaps pay off t"
+nazario_modern,phishing,safe,0.8560667137431442,"New Template Csomagja megérkezett raktárunkba Tisztelt Ügyfelünk, Csomagja kézbesítésre vár. Kérjük, folytassa a fogadás visszaigazolását az"

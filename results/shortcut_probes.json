@@ -1,0 +1,40 @@
+{
+  "style_surface_probe": {
+    "accuracy": 0.7897934386391251,
+    "macro_f1": 0.7888156655438427,
+    "roc_auc": 0.8790233402083772,
+    "gate_passed": false
+  },
+  "source_id_probe": {
+    "accuracy": 0.8341433778857837,
+    "num_sources": 8
+  },
+  "marker_ablation": {
+    "regular_f1": 0.9829881602201707,
+    "ablated_f1": 0.9817735670214509,
+    "delta_f1": -0.001214593198719749,
+    "top_ablated_markers": [
+      "vince",
+      "email date",
+      "we",
+      "bulk",
+      "date year",
+      "bulk list",
+      "gas",
+      "your",
+      "enron",
+      "postfix",
+      "09 09",
+      "python",
+      "url",
+      "list",
+      "date time"
+    ]
+  },
+  "era_distribution": {
+    "phishing_historical_train": 2697,
+    "phishing_modern_train": 1151,
+    "safe_historical_train": 3848,
+    "safe_modern_train": 0
+  }
+}
